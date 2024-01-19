@@ -45,7 +45,7 @@ def calculate_lines(frame, lines):
     return None
 
 
-def calculate_coordinates(frame, parameters): # calculating the coordinates
+def calculate_coordinates(frame, parameters):  # calculating the coordinates
     slope, intercept = parameters
     y1 = frame.shape[0]
     y2 = int(y1 - 150)
